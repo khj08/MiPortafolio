@@ -20,26 +20,28 @@ export default function Perfil() {
 
                 <div className='colz'>
 
-                    <a href='https://www.linkedin.com/feed/'>
-                        <i className='fa fa-facebook-square'></i>
-                    </a>
+                    <div className='colz-icon'>
+                        <a href='https://www.linkedin.com/feed/'>
+                            <i className='fa fa-facebook-square'></i>
+                        </a>
 
-                    <a href='https://www.linkedin.com/feed/'>
-                        <i className='fa fa-google-plus-square'></i>
-                    </a>
+                        <a href='https://www.linkedin.com/feed/'>
+                            <i className='fa fa-google-plus-square'></i>
+                        </a>
+                        
+                        <a href='https://www.linkedin.com/feed/'>
+                            <i className='fa fa-instagram'></i>
+                        </a>
                     
-                    <a href='https://www.linkedin.com/feed/'>
-                        <i className='fa fa-instagram'></i>
-                    </a>
-                
-                    <a href='https://www.linkedin.com/feed/'>
-                        <i className='fa fa-youtube-square'></i>
-                    </a>
+                        <a href='https://www.linkedin.com/feed/'>
+                            <i className='fa fa-youtube-square'></i>
+                        </a>
+                        
+                        <a href='https://www.linkedin.com/feed/'>
+                        <i className='fa fa-twitter'></i>
+                        </a>
+                    </div>
                     
-                    <a href='https://www.linkedin.com/feed/'>
-                    <i className='fa fa-twitter'></i>
-                    </a>
-
                 </div>
 
                 <div className='profile-details-name'>
@@ -100,6 +102,12 @@ export default function Perfil() {
                 </div>
 
             </div>
+
+            <div className='profile-picture'>
+                <div className='profile-picture-background'>
+                </div>            
+            </div>       
+
         </div>
     </div>
 
