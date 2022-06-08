@@ -1,7 +1,18 @@
-import React from 'react';
+import React, {useState} from 'react';
+import Typewriter from "typewriter-effect";
+
+
 
 
 export default function Perfil() {
+  const [state] = useState({
+      title: "Hola, ",
+      titleTwo: "Soy",
+      titleThree: "Katherineee",
+
+
+  });
+
   return (
     <div className='profile-container'>
 
@@ -46,18 +57,29 @@ export default function Perfil() {
 
                 <div className='profile-details-role'>
 
-                <span className='primary-text'>
+                    <h2>
+                        <div className='title'>{state.title}</div>
+                        <div className='titleTwo'>{state.titleTwo}</div>
+                        <div className='titleThree'>{state.titleThree}</div>
+                        
+                    </h2>       
 
-                    {" "}
-                    <h1>
-                    {" "}
+                    <div className='text-typewriter'>
 
-                    
-
-                    </h1>
-                    
-
-                </span>
+                        <Typewriter 
+                        options={{
+                            autoStart: true,
+                            loop: true,
+                            delay:40,
+                            strings:[
+                                "Soy egresada de ingeniera de sistemas",
+                                "Soy desarrolladora front end",
+                                "Soy desarrolladora web"
+                            ],
+                        }}
+                        />
+                        
+                    </div>     
 
                 </div>
 
@@ -68,5 +90,6 @@ export default function Perfil() {
     </div>
 
         
-  )
-}
+  );
+};
+
