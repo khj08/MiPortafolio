@@ -3,7 +3,7 @@ import Perfil from "./Contenedores/Home/Perfil"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
       <Perfil/>
     </div>
   );
