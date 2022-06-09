@@ -1,7 +1,7 @@
 {
   "name": "portafolio",
   "version": "0.1.0",
-  "homepage": "http://https://portafolioprueba.netlify.app/",
+  "homepage": "/",
   "private": true,
   "dependencies": {
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
