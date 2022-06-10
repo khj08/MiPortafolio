@@ -83,6 +83,8 @@ export default function Perfil() {
 
                     <span className='profile-role-tagline'>
                         Descripción del perfil, de la web.
+                        Descripción del perfil, de la web.
+                        Descripción del perfil, de la web.
                     </span>                    
 
                 </div>
