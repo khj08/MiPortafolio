@@ -1,13 +1,13 @@
 import "./App.css";
-
-import Perfil from "./Contenedores/Home/Perfil"
+import Home from "./Contenedores/Home/Home";
 
 function App() {
   return (
     <div className="App"> 
-      <Perfil/>
+      <Home/>
     </div>
   );
 }
 
 export default App;
+

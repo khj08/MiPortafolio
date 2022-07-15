@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Typewriter from "typewriter-effect";
+import './Perfil.css';
 
 export default function Perfil() {
   const [state] = useState({
@@ -19,23 +20,23 @@ export default function Perfil() {
 
                     <div className='colz-icon'>
                         <a href='https://www.linkedin.com/feed/'>
-                            <i className='fa fa-facebook-square'></i>
+                            <i className='fa-brands fa-facebook-square'></i>
                         </a>
 
                         <a href='https://www.linkedin.com/feed/'>
-                            <i className='fa fa-google-plus-square'></i>
+                            <i className='fa-brands fa-google-plus-square'></i>
                         </a>
                         
                         <a href='https://www.linkedin.com/feed/'>
-                            <i className='fa fa-instagram'></i>
+                            <i className='fa-brands fa-instagram'></i>
                         </a>
                     
                         <a href='https://www.linkedin.com/feed/'>
-                            <i className='fa fa-youtube-square'></i>
+                            <i className='fa-brands fa-youtube-square'></i>
                         </a>
                         
                         <a href='https://www.linkedin.com/feed/'>
-                        <i className='fa fa-twitter'></i>
+                        <i className='fa-brands fa-twitter'></i>
                         </a>
                     </div>
                     

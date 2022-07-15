@@ -142,11 +142,7 @@ body ::-webkit-scrollbar-thumb {
   }
 }
 
-.highlighted-btn:hover {
-  color: aliceblue;
-  border: 2px solid #B98DE8;
-  
-}
+
 
 .red-border {
   border: 1px solid var(--error-message) !important;
